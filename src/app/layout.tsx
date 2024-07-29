@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${redHatDisplay.variable}`}>
+      <body className={`bg-neutral-light ${redHatDisplay.variable}`}>
         <Header />
         {children}
       </body>
