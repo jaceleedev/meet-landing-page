@@ -61,6 +61,14 @@ const config: Config = {
           lineHeight: '26px',
           color: '#87879D',
         },
+        '.text-numbered-circle': {
+          fontFamily: 'var(--font-red-hat-display)',
+          fontSize: '16px',
+          fontStyle: 'normal',
+          fontWeight: '900',
+          lineHeight: '26px',
+          color: '#87879D',
+        },
         '.text-button': {
           fontFamily: 'var(--font-red-hat-display)',
           fontSize: '16px',
