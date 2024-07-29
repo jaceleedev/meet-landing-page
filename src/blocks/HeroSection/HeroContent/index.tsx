@@ -2,7 +2,7 @@ import Button from '@/components/Button';
 
 function HeroContent() {
   return (
-    <div className="self-end">
+    <div className="self-end mb-[7px]">
       <h1 className="text-heading-1 text-center mb-[34px]">
         Group Chat for Everyone
       </h1>
