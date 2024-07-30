@@ -26,8 +26,8 @@ const useCases: UseCase[] = [
 
 function UseCasesSection() {
   return (
-    <section className="pb-20">
-      <div className="grid grid-cols-4 gap-[30px] max-w-[1110px] mx-auto">
+    <section className="pb-20 max-lg:pb-12">
+      <div className="grid grid-cols-4 gap-[30px] max-w-[1110px] mx-auto max-lg:gap-[11px] max-lg:max-w-[689px]">
         {useCases.map((useCase) => (
           <Image
             key={useCase.alt}
@@ -35,7 +35,7 @@ function UseCasesSection() {
             alt={useCase.alt}
             width={255}
             height={242}
-            className="rounded-lg"
+            className="rounded-lg max-lg:w-[164px] max-lg:h-[156px]"
           />
         ))}
       </div>
