@@ -2,7 +2,7 @@ import NumberedCircle from '@/components/NumberedCircle';
 
 function ContentDivisionSection() {
   return (
-    <section className="flex justify-center mt-[110px] mb-16">
+    <section className="flex justify-center pt-[110px] pb-16 max-lg:pt-20 max-lg:pb-[67px]">
       <NumberedCircle number="01" />
     </section>
   );
