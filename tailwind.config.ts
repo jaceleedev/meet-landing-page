@@ -33,7 +33,6 @@ const config: Config = {
           fontStyle: 'normal',
           fontWeight: '900',
           lineHeight: '100%',
-          color: '#28283D',
         },
         '.text-heading-2': {
           fontFamily: 'var(--font-red-hat-display)',
@@ -41,7 +40,6 @@ const config: Config = {
           fontStyle: 'normal',
           fontWeight: '900',
           lineHeight: '110%',
-          color: '#28283D',
         },
         '.text-sub-heading': {
           fontFamily: 'var(--font-red-hat-display)',
@@ -59,7 +57,6 @@ const config: Config = {
           fontStyle: 'normal',
           fontWeight: '500',
           lineHeight: '26px',
-          color: '#87879D',
         },
         '.text-numbered-circle': {
           fontFamily: 'var(--font-red-hat-display)',
