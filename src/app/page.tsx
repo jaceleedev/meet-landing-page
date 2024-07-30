@@ -1,3 +1,4 @@
+import FeaturesSection from '@/blocks/FeaturesSection';
 import HeroSection from '@/blocks/HeroSection';
 import UseCasesSection from '@/blocks/UseCasesSection';
 import NumberedCircle from '@/components/NumberedCircle';
@@ -10,6 +11,7 @@ export default function Home() {
         <NumberedCircle number="01" />
       </div>
       <UseCasesSection />
+      <FeaturesSection />
     </main>
   );
 }
