@@ -8,7 +8,7 @@ interface HeroImageProps {
 
 function HeroImage({ src, alt, className }: HeroImageProps) {
   return (
-    <div className={`relative w-[393px] h-[303px] ${className}`}>
+    <div className={`relative ${className}`}>
       <Image src={src} alt={alt} fill priority />
     </div>
   );

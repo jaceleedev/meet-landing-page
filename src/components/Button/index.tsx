@@ -26,6 +26,7 @@ function Button({
       ? 'text-accent-light-blue'
       : 'text-accent-light-purple';
   const paddingStyle = secondaryText ? 'px-10 py-4' : 'px-[29px] py-4';
+  const widthStyle = secondaryText ? 'w-[193px]' : 'w-[139px]';
 
   function handleClick() {
     if (onClick) {
@@ -38,7 +39,7 @@ function Button({
   return (
     <button
       onClick={handleClick}
-      className={`${baseStyle} ${variantStyle[variant]} ${paddingStyle}`}
+      className={`${baseStyle} ${variantStyle[variant]} ${paddingStyle} ${widthStyle}`}
     >
       <span className="text-white">{primaryText}</span>
       {secondaryText && (
