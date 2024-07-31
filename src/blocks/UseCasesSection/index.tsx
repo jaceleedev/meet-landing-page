@@ -26,7 +26,13 @@ const useCases: UseCase[] = [
 
 function UseCasesSection() {
   return (
-    <section className="pb-20 max-lg:pb-12 max-sm:pb-16">
+    <section
+      className="pb-20 max-lg:pb-12 max-sm:pb-16"
+      aria-labelledby="use-cases-title"
+    >
+      <h2 id="use-cases-title" className="sr-only">
+        Use cases
+      </h2>
       <div className="grid grid-cols-4 gap-[30px] max-w-[1110px] mx-auto max-lg:gap-[11px] max-lg:max-w-[689px] max-sm:max-w-[327px] max-sm:grid-cols-2 max-sm:grid-rows-2 max-sm:gap-x-[25px] max-sm:gap-y-6">
         {useCases.map((useCase) => (
           <Image
