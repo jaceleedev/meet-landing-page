@@ -27,9 +27,7 @@ function Button({
       : 'text-accent-light-purple';
 
   const getSizeStyle = (hasSecondaryText: boolean) => {
-    return hasSecondaryText
-      ? 'px-10 py-4 w-[193px]'
-      : 'px-[29px] py-4 w-[139px]';
+    return hasSecondaryText ? 'py-4 w-[193px]' : 'py-4 w-[139px]';
   };
 
   function handleClick() {
