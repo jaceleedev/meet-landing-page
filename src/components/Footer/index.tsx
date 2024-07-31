@@ -38,7 +38,7 @@ function Footer() {
         <NumberedCircle number="02" />
       </div>
       <div className="relative z-10 grid grid-cols-[auto_auto_auto] max-w-[1110px] mx-auto max-lg:grid-cols-1 max-lg:grid-rows-[auto_auto_auto] max-lg:max-w-[573px] max-lg:justify-items-center max-sm:max-w-[327px]">
-        <h2 className="text-heading-2 text-neutral-light mr-[125px] max-lg:mr-0 max-lg:mb-8 max-lg:max-w-[457px] max-lg:text-center max-sm:text-[32px] max-sm:leading-[36px] max-sm:mb-6">
+        <h2 className="text-heading-2 text-neutral-light mr-[125px] max-w-[350px] max-lg:mr-0 max-lg:mb-8 max-lg:max-w-[457px] max-lg:text-center max-sm:text-[32px] max-sm:leading-[36px] max-sm:mb-6">
           Experience more together
         </h2>
         <p className="text-body text-neutral-light mr-[92px] max-lg:mr-0 max-lg:mb-10 max-lg:text-center max-sm:mb-8">
