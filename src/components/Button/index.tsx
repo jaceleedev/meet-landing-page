@@ -16,7 +16,7 @@ function Button({
   onClick,
 }: Readonly<ButtonProps>) {
   const baseStyle =
-    'flex justify-center items-center gap-1 h-[58px] text-button rounded-[29px]';
+    'flex justify-center items-center gap-1 h-[58px] text-button rounded-[29px] transition-[background-color]';
   const variantStyle = {
     primary: 'bg-primary-teal hover:bg-[#71C0D4]',
     secondary: 'bg-secondary-purple hover:bg-[#B18BDD]',
